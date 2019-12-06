@@ -1,0 +1,4 @@
+title: DetailProduksi
+modelClass: SIMANTAP\Produksi\Models\DetailProduksi
+toolbar:
+    buttons: reorder_toolbar

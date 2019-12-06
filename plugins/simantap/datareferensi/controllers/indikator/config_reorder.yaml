@@ -1,0 +1,4 @@
+title: Indikator
+modelClass: SIMANTAP\Datareferensi\Models\Indikator
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,12 @@
+list: $/simantap/produksi/models/masterproduksi/columns_trashed.yaml
+modelClass: SIMANTAP\Produksi\Models\MasterProduksi
+title: Data Produksi
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar_trashed
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'simantap/datareferensi/kategori/update/:id'

@@ -1,0 +1,10 @@
+name: Kategori
+form: $/simantap/datareferensi/models/kategori/fields.yaml
+modelClass: SIMANTAP\Datareferensi\Models\Kategori
+defaultRedirect: simantap/datareferensi/kategori
+create:
+    redirect: 'simantap/datareferensi/kategori/update/:id'
+    redirectClose: simantap/datareferensi/kategori
+update:
+    redirect: simantap/datareferensi/kategori
+    redirectClose: simantap/datareferensi/kategori

@@ -1,0 +1,4 @@
+title: KabupatenController
+modelClass: SIMANTAP\Datareferensi\Models\Kabupaten
+toolbar:
+    buttons: reorder_toolbar

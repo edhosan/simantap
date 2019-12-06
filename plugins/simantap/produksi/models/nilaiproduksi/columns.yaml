@@ -1,0 +1,20 @@
+columns:
+    id:
+        label: ID
+        type: number
+    bulan_id:
+        label: BULAN
+        type: number
+        searchable: true
+        sortable: true
+        select: bulan
+        relation: bulan
+    nilai:
+        label: NILAI
+        type: text
+    created_at:
+        label: 'TGL DIBUAT'
+        type: datetime
+    updated_at:
+        label: 'TGL DIUBAH'
+        type: datetime

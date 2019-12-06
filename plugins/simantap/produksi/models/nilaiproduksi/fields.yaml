@@ -1,0 +1,5 @@
+fields:
+    nilai:
+        label: Nilai
+        span: auto
+        type: text

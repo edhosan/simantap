@@ -1,0 +1,12 @@
+list: $/simantap/produksi/models/kampungproduksi/columns.yaml
+modelClass: SIMANTAP\Produksi\Models\KampungProduksi
+title: KampungProduksi
+noRecordsMessage: 'backend::lang.list.no_records'
+recordUrl: 'simantap/produksi/nilaiproduksi/index/:id'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

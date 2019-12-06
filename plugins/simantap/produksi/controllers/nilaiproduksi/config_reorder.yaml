@@ -1,0 +1,4 @@
+title: NilaiProduksi
+modelClass: SIMANTAP\Produksi\Models\NilaiProduksi
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,11 @@
+name: Data Produksi
+modelClass: SIMANTAP\Produksi\Models\NilaiProduksi
+form: $/simantap/produksi/models/nilaiproduksi/fields.yaml
+defaultRedirect: simantap/produksi/nilaiproduksi
+create:
+    redirect: 'simantap/produksi/nilaiproduksi/update/:id'
+    redirectClose: simantap/produksi/nilaiproduksi
+update:
+    redirect: simantap/produksi/nilaiproduksi
+    redirectClose: simantap/produksi/nilaiproduksi
+preview: {  }

@@ -1,0 +1,15 @@
+columns:
+    id:
+        label: ID
+        type: text
+        searchable: true
+    kecamatan_id:
+        label: KECAMATAN
+        type: text
+        searchable: true
+        relation: kecamatan
+        select: name
+    name:
+        label: KAMPUNG
+        type: text
+        searchable: true

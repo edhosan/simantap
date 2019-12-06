@@ -1,0 +1,10 @@
+fields:
+    id:
+        label: ID
+        span: auto
+        type: text
+    nm_kategori:
+        label: 'Kategori / BIdang'
+        span: auto
+        required: 1
+        type: text

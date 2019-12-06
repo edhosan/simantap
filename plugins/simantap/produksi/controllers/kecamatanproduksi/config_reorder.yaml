@@ -1,0 +1,4 @@
+title: KecamatanProduksi
+modelClass: SIMANTAP\Produksi\Models\KecamatanMaster
+toolbar:
+    buttons: reorder_toolbar

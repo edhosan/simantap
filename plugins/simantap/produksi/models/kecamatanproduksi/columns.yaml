@@ -1,0 +1,17 @@
+columns:
+    id:
+        label: ID
+        type: number
+    kecamatan_id:
+        label: KECAMATAN
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: kecamatan
+    created_at:
+        label: 'TGL DIBUAT'
+        type: datetime
+    updated_at:
+        label: 'TGL DIUBAH'
+        type: datetime

@@ -1,0 +1,47 @@
+<div class="list-header">
+    <form class="form-elements" role="form">
+        <div class="form-group span-left">
+            <label>Kategori</label>
+            <input type="text" name="" value="<?= $kampung->kecamatan->master->kategori->nm_kategori ?>" readonly class="form-control" />
+        </div>
+    
+        <div class="form-group span-right">
+            <label>Indikator</label>
+            <input type="text" name="" value="<?= $kampung->kecamatan->master->indikator->nm_indikator.' ('.$kampung->kecamatan->master->indikator->satuan.') ' ?>" readonly class="form-control" />
+        </div>
+    
+        <div class="form-group span-left">
+            <label>Tahun</label>
+            <input type="text" name="" value="<?= $kampung->kecamatan->master->tahun ?>" readonly class="form-control" />
+        </div>
+
+        <div class="form-group span-right">
+            <label>Komoditas</label>
+            <input type="text" name="" value="<?= $kampung->kecamatan->komoditas->komoditas->nm_komoditi ?>" readonly class="form-control" />
+        </div>
+
+        <div class="form-group span-left">
+            <label>Kecamatan</label>
+            <input type="text" name="" value="<?= $kampung->kecamatan->kecamatan->name ?>" readonly class="form-control" />
+        </div>
+
+        <div class="form-group span-right">
+            <label>Kampung</label>
+            <input type="text" name="" value="<?= $kampung->kampung->name ?>" readonly class="form-control" />
+        </div>
+    </form>
+</div>
+
+<div class="control-tabs primary-tabs" data-control="tab">
+    <ul class="nav nav-tabs">
+        <li><a href="<?= Backend::url('simantap/produksi/komoditasproduksi/index', $kampung->kecamatan->master->id) ?>">Daftar Komoditas</a></li>
+        <li><a href="<?= Backend::url('simantap/produksi/kecamatanproduksi/index', $kampung->kecamatan->komoditas->id) ?>">Daftar Kecamatan</a></li>
+        <li><a href="<?= Backend::url('simantap/produksi/kampungproduksi/index', $kampung->kecamatan->id) ?>">Daftar Kampung</a></li>
+        <li class="active"><a href="#primaryTabTwo">Nilai</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active">
+            <?= $this->listRender() ?>
+        </div>
+    </div>
+</div> 

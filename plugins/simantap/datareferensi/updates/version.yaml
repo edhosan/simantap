@@ -1,0 +1,50 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table simantap_datareferensi_provinsi'
+    - builder_table_create_simantap_datareferensi_provinsi.php
+1.0.3:
+    - 'Created table simantap_datareferensi_kabupaten'
+    - builder_table_create_simantap_datareferensi_kabupaten.php
+1.0.4:
+    - 'Updated table simantap_datareferensi_kabupaten'
+    - builder_table_update_simantap_datareferensi_kabupaten.php
+1.0.5:
+    - 'Updated table simantap_datareferensi_kabupaten'
+    - builder_table_update_simantap_datareferensi_kabupaten_2.php
+1.0.6:
+    - 'Created table simantap_datareferensi_kecamatan'
+    - builder_table_create_simantap_datareferensi_kecamatan.php
+1.0.7:
+    - 'Created table simantap_datareferensi_kampung'
+    - builder_table_create_simantap_datareferensi_kampung.php
+1.0.8:
+    - 'Created table simantap_datareferensi_kategori'
+    - builder_table_create_simantap_datareferensi_kategori.php
+1.0.9:
+    - 'Created table simantap_datareferensi_indikator'
+    - builder_table_create_simantap_datareferensi_indikator.php
+1.0.10:
+    - 'Created table simantap_datareferensi_komoditas'
+    - builder_table_create_simantap_datareferensi_komoditas.php
+1.0.11:
+    - 'Updated table simantap_datareferensi_komoditas'
+    - builder_table_update_simantap_datareferensi_komoditas.php
+1.0.12:
+    - 'Created table simantap_datareferensi_indikator_komoditas'
+    - builder_table_create_simantap_datareferensi_indikator_komoditas.php
+1.0.13:
+    - 'Created table simantap_datareferensi_bulan'
+    - builder_table_create_simantap_datareferensi_bulan.php
+1.0.14:
+    - 'Updated table simantap_datareferensi_kategori'
+    - builder_table_update_simantap_datareferensi_kategori.php
+1.0.15:
+    - 'Updated table simantap_datareferensi_indikator'
+    - builder_table_update_simantap_datareferensi_indikator.php
+1.0.16:
+    - 'Drop table simantap_datareferensi_komoditas'
+    - builder_table_delete_simantap_datareferensi_komoditas.php
+1.0.17:
+    - 'Created table simantap_datareferensi_komoditas'
+    - builder_table_create_simantap_datareferensi_komoditas_2.php

@@ -1,0 +1,13 @@
+list: $/simantap/produksi/models/nilaiproduksi/columns.yaml
+modelClass: SIMANTAP\Produksi\Models\NilaiProduksi
+title: NilaiProduksi
+noRecordsMessage: 'backend::lang.list.no_records'
+recordUrl: 'simantap/produksi/nilaiproduksi/update/:id'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+recordOnClick: "$.popup({ handler: 'onUpdateForm', extraData: { record_id: ':id', kampung_id: ':kampung_id' } })"
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

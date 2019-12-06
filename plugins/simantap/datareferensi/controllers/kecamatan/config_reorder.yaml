@@ -1,0 +1,4 @@
+title: Kecamatan
+modelClass: SIMANTAP\Datareferensi\Models\Kecamatan
+toolbar:
+    buttons: reorder_toolbar

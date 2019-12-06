@@ -1,0 +1,10 @@
+name: KabupatenController
+modelClass: SIMANTAP\Datareferensi\Models\Kabupaten
+form: $/simantap/datareferensi/models/kabupaten/kabupaten.yaml
+defaultRedirect: simantap/datareferensi/kabupatencontroller
+create:
+    redirect: 'simantap/datareferensi/kabupatencontroller/update/:id'
+    redirectClose: simantap/datareferensi/kabupatencontroller
+update:
+    redirect: simantap/datareferensi/kabupatencontroller
+    redirectClose: simantap/datareferensi/kabupatencontroller

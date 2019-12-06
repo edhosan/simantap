@@ -1,0 +1,11 @@
+name: Indikator
+modelClass: SIMANTAP\Datareferensi\Models\Indikator
+form: $/simantap/datareferensi/models/indikator/fields.yaml
+defaultRedirect: simantap/datareferensi/indikator
+create:
+    redirect: 'simantap/datareferensi/indikator/update/:id'
+    redirectClose: simantap/datareferensi/indikator
+update:
+    redirect: simantap/datareferensi/indikator
+    redirectClose: simantap/datareferensi/indikator
+preview: {  }

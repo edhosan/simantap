@@ -1,0 +1,18 @@
+fields:
+    id:
+        label: ID
+        span: auto
+        required: 1
+        type: text
+    kecamatan_id:
+        label: Kecamatan
+        emptyOption: SELECT
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    name:
+        label: Kampung
+        span: auto
+        required: 1
+        type: text

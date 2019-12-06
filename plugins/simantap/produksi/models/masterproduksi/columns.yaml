@@ -1,0 +1,33 @@
+columns:
+    id:
+        label: ID
+        type: number
+    kategori_id:
+        label: KATEGORI
+        type: text
+        searchable: true
+        select: nm_kategori
+        relation: kategori
+    indikator_id:
+        label: INDIKATOR
+        type: text
+        searchable: true
+        sortable: true
+        select: nm_indikator
+        relation: indikator
+    tahun:
+        label: TAHUN
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'TGL DIBUAT'
+        type: datetime
+    updated_at:
+        label: 'TGL DIUBAH'
+        type: datetime
+    Aksi:
+        label: Aksi
+        clickable: false
+        type: partial
+        path: ~/plugins/simantap/produksi/models/masterproduksi/_rincian_master.htm

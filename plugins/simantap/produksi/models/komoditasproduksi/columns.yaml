@@ -1,0 +1,17 @@
+columns:
+    id:
+        label: ID
+        type: number
+    komoditas_id:
+        label: KOMODITAS
+        type: number
+        searchable: true
+        sortable: true
+        select: nm_komoditi
+        relation: komoditas
+    created_at:
+        label: 'TGL DIBUAT'
+        type: datetime
+    updated_at:
+        label: 'TGL DIUBAH'
+        type: datetime

@@ -1,0 +1,10 @@
+fields:
+    id:
+        label: ID
+        span: auto
+        type: text
+    nm_komoditi:
+        label: Komoditas
+        span: auto
+        required: 1
+        type: text

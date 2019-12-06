@@ -1,0 +1,24 @@
+columns:
+    id:
+        label: ID
+        type: number
+    kategori_id:
+        label: KATEGORI
+        type: number
+        searchable: true
+        sortable: true
+        select: nm_kategori
+        relation: kategori
+    nm_indikator:
+        label: INDIKATOR
+        type: text
+        searchable: true
+        sortable: true
+    komoditas:
+        label: KOMODITAS
+        type: text
+        select: nm_komoditi
+        relation: komoditas
+    satuan:
+        label: SATUAN
+        type: text

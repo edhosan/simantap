@@ -1,0 +1,20 @@
+columns:
+    id:
+        label: id
+        type: text
+        searchable: true
+        sortable: true
+    nm_kategori:
+        label: nm_kategori
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

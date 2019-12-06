@@ -1,0 +1,14 @@
+{
+  "name": "simantap",
+  "description": "Sistem Pengumpulan Data Pertanian dan Peternakan",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

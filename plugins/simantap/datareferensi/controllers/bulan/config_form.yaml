@@ -1,0 +1,10 @@
+name: Bulan
+form: $/simantap/datareferensi/models/bulan/fields.yaml
+modelClass: SIMANTAP\Datareferensi\Models\Bulan
+defaultRedirect: simantap/datareferensi/bulan
+create:
+    redirect: 'simantap/datareferensi/bulan/update/:id'
+    redirectClose: simantap/datareferensi/bulan
+update:
+    redirect: simantap/datareferensi/bulan
+    redirectClose: simantap/datareferensi/bulan

@@ -1,0 +1,24 @@
+fields:
+    kategori_id:
+        label: Kategori
+        emptyOption: SELECT
+        showSearch: true
+        span: auto
+        default: ''
+        readOnly: 0
+        type: dropdown
+    indikator_id:
+        label: Indikator
+        emptyOption: SELECT
+        showSearch: true
+        span: auto
+        dependsOn:
+            - kategori_id
+        preset:
+            field: kategori_id
+            type: ''
+        type: dropdown
+    tahun:
+        label: Tahun
+        span: left
+        type: number

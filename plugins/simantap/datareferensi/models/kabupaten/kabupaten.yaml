@@ -1,0 +1,15 @@
+fields:
+    provinsi_id:
+        label: Provinsi
+        span: auto
+        showSearch: true
+        emptyOption: SELECT
+        type: dropdown
+    id:
+        label: ID
+        span: left
+        type: text
+    name:
+        label: Kabupaten
+        span: auto
+        type: text

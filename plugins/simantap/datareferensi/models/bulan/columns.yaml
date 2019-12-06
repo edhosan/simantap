@@ -1,0 +1,9 @@
+columns:
+    id:
+        label: id
+        type: text
+        sortable: true
+    bulan:
+        label: bulan
+        type: text
+        sortable: true

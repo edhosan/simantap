@@ -1,0 +1,65 @@
+plugin:
+    name: 'simantap.datareferensi::lang.plugin.name'
+    description: 'simantap.datareferensi::lang.plugin.description'
+    author: SIMANTAP
+    icon: oc-icon-archive
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Data Referensi'
+        url: simantap/datareferensi/kecamatan
+        icon: icon-archive
+        permissions:
+            - kecamatan
+        sideMenu:
+            side-menu-item3:
+                label: Kecamatan
+                url: simantap/datareferensi/kecamatan
+                icon: icon-university
+                permissions:
+                    - kecamatan
+            side-menu-item4:
+                label: Kampung
+                url: simantap/datareferensi/kampung
+                icon: icon-university
+            side-menu-item:
+                label: 'Kategori / Bidang'
+                url: simantap/datareferensi/kategori
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Indikator
+                url: simantap/datareferensi/indikator
+                icon: icon-indent
+            side-menu-item5:
+                label: Komoditas
+                url: simantap/datareferensi/komoditas
+                icon: icon-asterisk
+            side-menu-item6:
+                label: Bulan
+                url: simantap/datareferensi/bulan
+                icon: icon-bullhorn
+                permissions:
+                    - bulan
+    main-menu-item2:
+        label: 'simantap.datareferensi::lang.simantap.datareferensi.menu.recycle'
+        url: simantap/datareferensi/kategori/recycle
+        icon: icon-life-ring
+        permissions:
+            - kategori
+        sideMenu:
+            side-menu-item:
+                label: 'simantap.datareferensi::lang.simantap.datareferensi.menu.kategori'
+                url: simantap/datareferensi/kategori/recycle
+                icon: icon-recycle
+                permissions:
+                    - kategori
+permissions:
+    kecamatan:
+        tab: 'simantap.datareferensi::lang.plugin.name'
+        label: 'simantap.datareferensi::lang.kecamatan.access_kecamatan'
+    bulan:
+        tab: 'simantap.datareferensi::lang.plugin.name'
+        label: 'simantap.datareferensi::lang.bulan.access_bulan'
+    kategori:
+        tab: 'simantap.datareferensi::lang.plugin.name'
+        label: 'simantap.datareferensi::lang.simantap.datareferensi.permissions.recycle.kategori'

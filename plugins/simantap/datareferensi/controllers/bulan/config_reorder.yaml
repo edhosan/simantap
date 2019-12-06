@@ -1,0 +1,4 @@
+title: Bulan
+modelClass: SIMANTAP\Datareferensi\Models\Bulan
+toolbar:
+    buttons: reorder_toolbar

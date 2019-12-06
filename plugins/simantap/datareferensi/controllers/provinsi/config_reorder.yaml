@@ -1,0 +1,4 @@
+title: Provinsi
+modelClass: SIMANTAP\Datareferensi\Models\Provinsi
+toolbar:
+    buttons: reorder_toolbar

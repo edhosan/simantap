@@ -1,0 +1,17 @@
+fields:
+    kategori_id:
+        label: Kategori
+        showSearch: true
+        span: auto
+        type: dropdown
+    indikator_id:
+        label: Indikator
+        showSearch: true
+        span: auto
+        dependsOn:
+            - kategori_id
+        type: dropdown
+    komoditas_id:
+        label: Komoditas
+        span: auto
+        type: checkboxlist

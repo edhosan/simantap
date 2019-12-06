@@ -1,0 +1,4 @@
+title: KomoditasProduksi
+modelClass: SIMANTAP\Produksi\Models\KomoditasProduksi
+toolbar:
+    buttons: reorder_toolbar

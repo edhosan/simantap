@@ -1,0 +1,10 @@
+name: DetailProduksi
+form: $/simantap/produksi/models/detailproduksi/fields.yaml
+modelClass: SIMANTAP\Produksi\Models\DetailProduksi
+defaultRedirect: simantap/produksi/detailproduksi
+create:
+    redirect: 'simantap/produksi/detailproduksi/update/:id'
+    redirectClose: simantap/produksi/detailproduksi
+update:
+    redirect: simantap/produksi/detailproduksi
+    redirectClose: simantap/produksi/detailproduksi

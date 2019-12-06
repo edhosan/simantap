@@ -1,0 +1,32 @@
+plugin:
+    name: 'simantap.produksi::lang.plugin.name'
+    description: 'simantap.produksi::lang.plugin.description'
+    author: SIMANTAP
+    icon: oc-icon-codepen
+    homepage: ''
+permissions:
+    master-produksi:
+        tab: 'simantap.produksi::lang.plugin.name'
+        label: 'simantap.produksi::lang.master-produksi.access_master_produksi'
+navigation:
+    main-menu-item:
+        label: 'Data Produksi'
+        url: simantap/produksi/masterproduksi
+        icon: icon-codepen
+        permissions:
+            - master-produksi
+        sideMenu:
+            side-menu-item:
+                label: 'Input Data'
+                url: simantap/produksi/masterproduksi
+                icon: icon-briefcase
+                permissions:
+                    - master-produksi
+    main-menu-item2:
+        label: 'Bidang Peternakan'
+        url: /
+        icon: icon-life-ring
+    main-menu-item3:
+        label: Laporan
+        url: /
+        icon: icon-life-ring

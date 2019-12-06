@@ -1,0 +1,18 @@
+columns:
+    id:
+        label: ID
+        type: number
+    kampung_id:
+        label: KAMPUNG
+        type: text
+        select: name
+        relation: kampung
+    nilai:
+        label: TOTAL
+        type: text
+    created_at:
+        label: 'TGL DIBUAT'
+        type: datetime
+    updated_at:
+        label: 'TGL DIUBAH'
+        type: datetime

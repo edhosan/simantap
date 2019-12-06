@@ -1,0 +1,18 @@
+columns:
+    id:
+        label: ID
+        type: text
+        searchable: true
+        sortable: true
+    provinsi_id:
+        label: Provinsi
+        type: text
+        searchable: true
+        invisible: false
+        sortable: true
+        relation: provinsi
+    name:
+        label: Kabupaten
+        type: text
+        searchable: true
+        sortable: true

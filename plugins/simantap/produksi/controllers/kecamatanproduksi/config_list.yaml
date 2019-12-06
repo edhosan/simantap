@@ -1,0 +1,12 @@
+title: KecamatanProduksi
+modelClass: SIMANTAP\Produksi\Models\KecamatanProduksi
+list: $/simantap/produksi/models/kecamatanproduksi/columns.yaml
+noRecordsMessage: 'backend::lang.list.no_records'
+recordUrl: 'simantap/produksi/kampungproduksi/index/:id'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

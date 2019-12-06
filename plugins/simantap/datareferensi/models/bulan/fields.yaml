@@ -1,0 +1,10 @@
+fields:
+    id:
+        label: Bulan
+        span: auto
+        required: 1
+        type: number
+    bulan:
+        label: Bulan
+        span: auto
+        type: text

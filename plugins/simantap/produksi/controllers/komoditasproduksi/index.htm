@@ -1,0 +1,30 @@
+<div class="list-header">
+    <form class="form-elements" role="form">
+        <div class="form-group span-left">
+            <label>Kategori</label>
+            <input type="text" name="" value="<?= $master->kategori->nm_kategori ?>" readonly class="form-control" />
+        </div>
+    
+        <div class="form-group span-right">
+            <label>Indikator</label>
+            <input type="text" name="" value="<?= $master->indikator->nm_indikator. " (". $master->indikator->satuan .") " ?>" readonly class="form-control" />
+        </div>
+    
+        <div class="form-group span-left">
+            <label>Tahun</label>
+            <input type="text" name="" value="<?= $master->tahun ?>" readonly class="form-control" />
+        </div>
+    </form>
+</div>     
+
+<div class="control-tabs primary-tabs" data-control="tab">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#primaryTabOne">Daftar Komoditas</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active">       
+            <?= $this->listRender() ?>
+        </div>
+    </div>
+</div>
+

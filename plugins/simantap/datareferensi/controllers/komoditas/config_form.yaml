@@ -1,0 +1,10 @@
+name: Komoditas
+form: $/simantap/datareferensi/models/komoditas/fields.yaml
+modelClass: SIMANTAP\Datareferensi\Models\Komoditas
+defaultRedirect: simantap/datareferensi/komoditas
+create:
+    redirect: 'simantap/datareferensi/komoditas/update/:id'
+    redirectClose: simantap/datareferensi/komoditas
+update:
+    redirect: simantap/datareferensi/komoditas
+    redirectClose: simantap/datareferensi/komoditas

@@ -1,0 +1,24 @@
+{% set kategori = __SELF__.kategori %}
+
+<form action="">
+    <div class="form-group">
+        <label for="kategori">Kategori</label>
+        <select name="kategori_id" id="kategori" class="form-control">
+            <option value="" selected>SELECT</option>
+            {% for item in kategori  %}
+                 <option value="{{ item.id }}">{{ item.nm_kategori }}</option>
+            {% endfor %}
+        </select>
+    </div>
+</form>
+
+<div class="content">{{ post.content_html|raw }}</div>
+
+
+{{ form.formRender()|raw }}
+
+{% put scripts %}
+    <script type="text/javascript">
+        $('#kategori').select2();
+    </script>
+{% endput %}

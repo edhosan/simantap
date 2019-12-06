@@ -1,0 +1,4 @@
+title: Komoditas
+modelClass: SIMANTAP\Datareferensi\Models\Komoditas
+toolbar:
+    buttons: reorder_toolbar

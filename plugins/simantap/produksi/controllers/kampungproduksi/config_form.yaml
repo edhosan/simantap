@@ -1,0 +1,11 @@
+name: Kampung Produksi
+modelClass: SIMANTAP\Produksi\Models\KampungProduksi
+form: $/simantap/produksi/models/kampungproduksi/fields.yaml
+defaultRedirect: simantap/produksi/kampungproduksi
+create:
+    redirect: 'simantap/produksi/kampungproduksi/update/:id'
+    redirectClose: simantap/produksi/kampungproduksi
+update:
+    redirect: simantap/produksi/kampungproduksi
+    redirectClose: simantap/produksi/kampungproduksi
+preview: {  }

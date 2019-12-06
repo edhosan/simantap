@@ -1,0 +1,27 @@
+fields:
+    kategori_id:
+        label: Kategori
+        emptyOption: SELECT
+        showSearch: true
+        span: auto
+        required: 1
+        type: dropdown
+    nm_indikator:
+        label: Indikator
+        span: auto
+        required: 1
+        placeholder: 'Nama Indikator'
+        type: text
+    satuan:
+        label: Satuan
+        span: auto
+        type: text
+tabs:
+    fields:
+        komoditas:
+            label: Komodtitas
+            span: auto
+            nameFrom: nm_komoditi
+            descriptionFrom: description
+            type: relation
+            tab: Komoditas

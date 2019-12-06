@@ -1,0 +1,11 @@
+name: Kecamatan
+modelClass: SIMANTAP\Datareferensi\Models\Kecamatan
+form: $/simantap/datareferensi/models/kecamatan/fields.yaml
+defaultRedirect: simantap/datareferensi/kecamatan
+create:
+    redirect: 'simantap/datareferensi/kecamatan/update/:id'
+    redirectClose: simantap/datareferensi/kecamatan
+update:
+    redirect: simantap/datareferensi/kecamatan
+    redirectClose: simantap/datareferensi/kecamatan
+preview: {  }

@@ -1,0 +1,9 @@
+name: SIMANTAP
+description: 'Sistem Pengumpulan Data Pertanian dan Peternakan'
+author: OctoberCMS
+homepage: 'http://octobercms.com'
+code: Vanilla
+require:
+    - RainLab.User
+    - RainLab.Blog
+    - RainLab.Forum

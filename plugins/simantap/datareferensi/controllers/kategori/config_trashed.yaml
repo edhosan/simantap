@@ -1,0 +1,12 @@
+list: $/simantap/datareferensi/models/kategori/columns-recycle.yaml
+modelClass: SIMANTAP\Datareferensi\Models\Kategori
+title: Kategori
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar_trashed
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'simantap/datareferensi/kategori/update/:id'

@@ -1,0 +1,4 @@
+title: Kampung
+modelClass: SIMANTAP\Datareferensi\Models\Kampung
+toolbar:
+    buttons: reorder_toolbar

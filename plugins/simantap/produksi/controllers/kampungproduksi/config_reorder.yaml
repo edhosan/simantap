@@ -1,0 +1,4 @@
+title: KampungProduksi
+modelClass: SIMANTAP\Produksi\Models\KampungProduksi
+toolbar:
+    buttons: reorder_toolbar

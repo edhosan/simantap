@@ -1,0 +1,11 @@
+name: Provinsi
+modelClass: SIMANTAP\Datareferensi\Models\Provinsi
+form: $/simantap/datareferensi/models/provinsi/Provinsi.yaml
+defaultRedirect: simantap/datareferensi/provinsi
+create:
+    redirect: 'simantap/datareferensi/provinsi/update/:id'
+    redirectClose: simantap/datareferensi/provinsi
+update:
+    redirect: simantap/datareferensi/provinsi
+    redirectClose: simantap/datareferensi/provinsi
+preview: {  }

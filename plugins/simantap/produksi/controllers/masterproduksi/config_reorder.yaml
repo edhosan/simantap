@@ -1,0 +1,4 @@
+title: Data Produksi
+modelClass: SIMANTAP\Produksi\Models\MasterProduksi
+toolbar:
+    buttons: reorder_toolbar

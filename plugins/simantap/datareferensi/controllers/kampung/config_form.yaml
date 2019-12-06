@@ -1,0 +1,10 @@
+name: Kampung
+form: $/simantap/datareferensi/models/kampung/fields.yaml
+modelClass: SIMANTAP\Datareferensi\Models\Kampung
+defaultRedirect: simantap/datareferensi/kampung
+create:
+    redirect: 'simantap/datareferensi/kampung/update/:id'
+    redirectClose: simantap/datareferensi/kampung
+update:
+    redirect: simantap/datareferensi/kampung
+    redirectClose: simantap/datareferensi/kampung

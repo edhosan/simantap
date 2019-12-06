@@ -1,0 +1,12 @@
+columns:
+    id:
+        label: ID
+        type: text
+    kabupaten_id:
+        label: KABUPATEN
+        type: text
+        relation: kabupaten
+        select: name
+    name:
+        label: KECAMATAN
+        type: text
