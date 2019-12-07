@@ -1,9 +1,14 @@
 title = "Data Produksi"
-url = "/data-produksi"
+url = "/data-produksi/master"
 layout = "default"
 description = "Informasi pengelolaan data produksi, berdasarkan Indikator, Komoditi, dan Wilayah di Kabupaten Berau"
 is_hidden = 0
 
 [filterDataProduksi]
 ==
+<ol class="breadcrumb">
+    <li><a href="{{ 'home'|page }}">Beranda</a></li>
+    <li class="active">Data Produksi</li>
+</ol>
+
 {% component 'filterDataProduksi' %}

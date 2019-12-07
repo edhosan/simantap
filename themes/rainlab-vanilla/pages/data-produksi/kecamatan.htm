@@ -1,0 +1,37 @@
+title = "Data Produksi Per Kecamatan"
+url = "/data-produksi/kecamatan/:komoditas_id"
+layout = "default"
+description = "Informasi data produksi berdasarkan indikator dan komoditas per Kecamatan"
+is_hidden = 0
+==
+use SIMANTAP\Produksi\Models\KomoditasProduksi;
+
+function onStart()
+{
+    $komoditas_produksi = KomoditasProduksi::with('kecamatan_produksi')->whereId($this->param('komoditas_id'))->first();
+    $this['komoditas_produksi'] = $komoditas_produksi;
+    $this->page->title = "Komoditas ". $komoditas_produksi->komoditas->nm_komoditi .' '. $komoditas_produksi->master->tahun;
+}
+==
+
+<ol class="breadcrumb">
+    <li><a href="{{ 'home'|page }}">Beranda</a></li>
+    <li><a href="{{ 'data-produksi/master'|page }}">Data Produksi</a></li>
+    <li class="active">Komoditas</li>
+</ol>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Komoditas {{ komoditas_produksi.komoditas.nm_komoditi }}</h3>
+    </div>        
+    <div class="panel-body"></div>
+        {% for kecamatan in komoditas_produksi.kecamatan_produksi %}
+        <div class="list-group">
+            <a href="/data-produksi/kecamatan/{{ komoditas_produksi.id }}" class="list-group-item">
+                <span class="badge">14&nbsp;{{ komoditas_produksi.master.indikator.satuan }}</span>
+                {{ kecamatan.kecamatan.name }}
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>

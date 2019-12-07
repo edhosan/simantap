@@ -50,11 +50,6 @@ class MasterProduksi extends Model
             'SIMANTAP\Produksi\Models\KomoditasProduksi',
             'table' => 'simantap_produksi_komoditas',
             'delete' => true
-        ],
-        'kecamatan_produksi' => [
-            'SIMANTAP\Produksi\Models\KecamatanMaster',
-            'table' => 'simantap_produksi_kecamatan',
-            'delete' => true
         ]
     ];
 

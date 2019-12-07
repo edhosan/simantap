@@ -1,4 +1,4 @@
-1575529016a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:4117:"description = "Default layout"
+1575719088a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:4129:"description = "Default layout"
 
 [session]
 security = "all"
@@ -37,7 +37,7 @@ security = "all"
                     </div>
                     <div class="collapse navbar-collapse navbar-main-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="{% if this.page.id == 'account' %}active{% endif %}"><a href="{{ 'data-produksi'|page }}">Data Produksi</a></li>
+                            <li class="{% if this.page.id == 'account' %}active{% endif %}"><a href="{{ 'data-produksi/master'|page }}">Data Produksi</a></li>
                             <li class="{% if this.page.id == 'blog' %}active{% endif %}"><a href="{{ 'blog'|page }}">Blog</a></li>
                             <li class="{% if this.page.id == 'forum' %}active{% endif %}"><a href="{{ 'forum'|page }}">Forum</a></li>
                         </ul>
@@ -93,7 +93,7 @@ security = "all"
         {% scripts %}
 
     </body>
-</html>";s:5:"mtime";i:1575436917;s:6:"markup";s:4055:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1575699001;s:6:"markup";s:4062:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -127,7 +127,7 @@ security = "all"
                     </div>
                     <div class="collapse navbar-collapse navbar-main-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="{% if this.page.id == 'account' %}active{% endif %}"><a href="{{ 'data-produksi'|page }}">Data Produksi</a></li>
+                            <li class="{% if this.page.id == 'account' %}active{% endif %}"><a href="{{ 'data-produksi/master'|page }}">Data Produksi</a></li>
                             <li class="{% if this.page.id == 'blog' %}active{% endif %}"><a href="{{ 'blog'|page }}">Blog</a></li>
                             <li class="{% if this.page.id == 'forum' %}active{% endif %}"><a href="{{ 'forum'|page }}">Forum</a></li>
                         </ul>

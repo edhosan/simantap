@@ -94,7 +94,7 @@ class __TwigTemplate_471e84cd5374878a0f42cb66baf9fe0f88ff8deaea4dbce02253a22fe46
             echo "active";
         }
         echo "\"><a href=\"";
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("data-produksi");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("data-produksi/master");
         echo "\">Data Produksi</a></li>
                             <li class=\"";
         // line 36
@@ -248,7 +248,7 @@ class __TwigTemplate_471e84cd5374878a0f42cb66baf9fe0f88ff8deaea4dbce02253a22fe46
                     </div>
                     <div class=\"collapse navbar-collapse navbar-main-collapse\">
                         <ul class=\"nav navbar-nav\">
-                            <li class=\"{% if this.page.id == 'account' %}active{% endif %}\"><a href=\"{{ 'data-produksi'|page }}\">Data Produksi</a></li>
+                            <li class=\"{% if this.page.id == 'account' %}active{% endif %}\"><a href=\"{{ 'data-produksi/master'|page }}\">Data Produksi</a></li>
                             <li class=\"{% if this.page.id == 'blog' %}active{% endif %}\"><a href=\"{{ 'blog'|page }}\">Blog</a></li>
                             <li class=\"{% if this.page.id == 'forum' %}active{% endif %}\"><a href=\"{{ 'forum'|page }}\">Forum</a></li>
                         </ul>

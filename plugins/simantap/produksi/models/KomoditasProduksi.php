@@ -44,6 +44,12 @@ class KomoditasProduksi extends Model
     ];
 
     public $hasMany = [
-
+        'kecamatan_produksi' => [
+            'SIMANTAP\Produksi\Models\KecamatanProduksi',
+            'table' => 'simantap_produksi_kecamatan',
+            'key'   => 'komoditas_id',
+            'otherKey'  => 'id',
+            'delete' => true
+        ]
     ];
 }

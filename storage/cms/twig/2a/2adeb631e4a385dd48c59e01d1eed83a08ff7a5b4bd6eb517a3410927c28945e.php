@@ -49,7 +49,7 @@ class __TwigTemplate_a6cec59b15bde102350c7683942a1978eb7edc3f0d3444365fd94b03c7a
                 <p>
                     <a href=\"";
         // line 11
-        echo $this->extensions['Cms\Twig\Extension']->pageFilter("data-produksi");
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("data-produksi/master");
         echo "\" class=\"btn btn-lg btn-info\" role=\"button\">Lihat Data</a>
                 </p>
             </div>
@@ -127,7 +127,7 @@ class __TwigTemplate_a6cec59b15bde102350c7683942a1978eb7edc3f0d3444365fd94b03c7a
                 <p>Informasi pengelolaan data hasil produksi pertanian di Kabupaten Berau.</p>
                 <br />
                 <p>
-                    <a href=\"{{ 'data-produksi'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Lihat Data</a>
+                    <a href=\"{{ 'data-produksi/master'|page }}\" class=\"btn btn-lg btn-info\" role=\"button\">Lihat Data</a>
                 </p>
             </div>
         </div>
